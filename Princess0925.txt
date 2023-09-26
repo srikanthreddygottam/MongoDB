@@ -1,7 +1,12 @@
-Project1
-Project2
-Project3
-Project4
-Project5
-Project6
-Project7
+cd
+git pull
+git branch
+git checkout princess0925
+git branch
+atom .
+duplicate, rename
+pull request
+git add .
+git commit -m "homework"
+git push
+git diff
