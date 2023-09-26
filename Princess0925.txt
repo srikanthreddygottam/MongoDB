@@ -10,3 +10,5 @@ git add .
 git commit -m "homework"
 git push
 git diff
+git checkout -b
+git checkout -D
