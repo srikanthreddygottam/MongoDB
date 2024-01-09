@@ -6,3 +6,4 @@ cd ..
 cd /opt/tomcat/
 ls
 ls -lart
+pwd
