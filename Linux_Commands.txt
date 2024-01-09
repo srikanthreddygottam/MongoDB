@@ -1,0 +1,8 @@
+cd
+mkdir
+touch sri.txt
+vi sri.txt
+cd ..
+cd /opt/tomcat/
+ls
+ls -lart
