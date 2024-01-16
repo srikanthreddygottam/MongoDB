@@ -10,3 +10,77 @@ git add .
 git commit -m "homework"
 git push
 git diff
+
+
+PuTTY for Windows ONLY
+
+not in own machine, connected to AWS through SSH: Now in Ubuntu (not Windows anymore)
+"connecting to server" ---> https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+file extensions:
+.ppk for windows putty
+.pem for openssh mac
+
+1. Create the instance and the key pair
+   Enable resource-based IPv4
+2. Enter Host Name under SSH: IP public IPv4 address
+3. Attach PuTTy private key file in private key file for authentication under credentials<--Auth<--SSH<--Connection
+-change security group to default: 22 for mac, 3389 for windows
+
+Linux Commands:
+df -h
+pwd- present working directory
+ls -al - to show name with permissions
+ls -lart -lists and arranges according to the time it was created
+clear
+mkdir (firstfolder- name)- to create a folder/directory
+cd (firstfolder) - change directory: to go into the folder
+cd - :to go back to the previous directory
+touch (file.txt)- to create a file
+ls- lists the name only
+mv (file name.txt)- to rename the file
+mv (current /home/ubuntu/princess/princess.txt /destination folder)
+cp- to duplicate/copy a file
+rm- remove
+rm -rf: force remove
+rm -rf *
+tmp (default folder)
+chown (root:root)- to change owner of the file
+chmod (value: 777/775/644) file.txt -grant the read, write, and execute permissions to the owner of the file or directory and to the group associated to it
+
+(turns green after the permissions are changed)
+
+r- read
+w- write
+x- execute
+
+777 - readwrite by all
+755 - Read by Owner + Write by Owner + Execute by Owner + Read by Group + Execute by Group + Read by anyone (common for files in user’s home directory)
+644 - Everyone read, only owner can write.
+
+git prompts
+to open the file:
+cd Documents
+cd devops
+cd MongoDB
+atom .
+to clone the project:
+git clone git@github.com:srikanthreddygottam/MongoDB.git
+to update file:
+git pull
+to check current branch:
+git branch
+to create a new branch:
+git checkout -b princess
+to delete a branch
+git branch -D princess
+to move to another branch:
+git checkout master
+to add changes from local to repository:
+git add .
+to commit:
+git commit -m "note"
+git push
+to see the difference between branches:
+git diff master
+https://github.com/srikanthreddygottam/MongoDB/pull/5git
